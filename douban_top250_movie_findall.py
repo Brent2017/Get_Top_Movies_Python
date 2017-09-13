@@ -6,7 +6,6 @@ from openpyxl.workbook import Workbook
 from openpyxl.writer.excel import ExcelWriter
 from openpyxl import load_workbook
 #change for test github 20170912
-#0913 from pc change
 
 def get_one_page(url):
     response = urllib.request.urlopen(url)
